@@ -58,7 +58,7 @@
 				<img src="../imagenes/login.png" alt="">&nbsp;<a href="<?=URL::to('login/logout');?>"style="text-decoration:none; color:#004000;">Logout</a>
 			</div>
 			<div id="manual" class="texto_body">
-				<img src="../imagenes/manual.png" alt="">&nbsp;Manual
+				<img src="../imagenes/manual.png" alt=""><a href="<?=URL::to('ayuda/ayudape');?>"style="text-decoration:none; color:#004000;">&nbsp;Manual</a>
 			</div>
 		</div>
 	</div>
@@ -169,7 +169,7 @@
 					Etapa terminal
 				</div>
 			</div>
-			<div id="basica_semestres">
+			<!--<div id="basica_semestres">
 				<div id="semestre_uno">1</div>
 				<div id="semestre_dos">2</div>
 				<div id="semestre_tres">3</div>
@@ -183,7 +183,9 @@
 				<div id="semestre_siete">7</div>
 				<div id="semestre_ocho">8</div>
 				<div id="semestre_nueve">9</div>
-			</div>
+			</div>-->
+			<br>
+			<br>
 		</div>
 		<script type="text/javascript">
 			$("ul:first").dragsort();
